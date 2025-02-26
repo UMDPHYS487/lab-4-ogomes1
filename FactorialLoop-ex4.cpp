@@ -11,11 +11,7 @@ int fact(int i){
 }
 
 int main() {
-    int N;
-    cout << "Enter a value for N to calculate the number of factorials: ";
-    cin >> N;
-    cout << "\n";
-    for (int i = 1; i<=N; i++)
+    for (int i = 1; i<=10; i++)
         cout << "Loop count: " << i << " for which, factorial is " << fact(i) << endl;
     
     return 0;
